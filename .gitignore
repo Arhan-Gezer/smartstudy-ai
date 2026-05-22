@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.pytest_cache/
+
+# Virtual env
+.venv/
+venv/
+env/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# HF / model caches
+.cache/
+~/.cache/huggingface/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Logs
+*.log
+pip-install.log
+
+# Build artifacts
+build/
+dist/
